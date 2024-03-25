@@ -1,10 +1,12 @@
-body{width: 100%;background-color: #000; color:#fff; background-image: url("https://img.freepik.com/premium-vector/pixelate-background_634779-89.jpg"); background-repeat: no-repeat;  background-size: 100% 100%;}
+body{width: 100%;background-color: #fff; color:#000; background-image: url("https://img.freepik.com/premium-vector/pixelate-background_634779-89.jpg"); background-repeat: no-repeat;  background-size: 100% 100%;}
 
 #centered, iframe{width: 1000px; text-align: center; margin:auto}
 
 iframe{height: 800px;border:none;}
 
+/*
 #logo_right p, #logo_left p{background-color: #5d94fb}
+*/
   
 #logo_right{width:20%;float: right}
 #logo_left{width:20%;float: left}
