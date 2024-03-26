@@ -5,6 +5,8 @@
 
 body{width: 100%;background-color: #7cdced; color:#000;}
 
+a{text-decoration:none;}
+
 #centered, iframe{width: 1000px; text-align: center; margin:auto}
 
 iframe{height: 810px;border:none;}
@@ -17,5 +19,5 @@ iframe{height: 810px;border:none;}
 #logo_left{width:20%;float: left}
 
 h1{padding-top: 30px; font-family:mario}
-p{text-align: center; margin:auto}
+p{text-align: center}
 img{max-width:100%}
