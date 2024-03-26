@@ -21,7 +21,7 @@
 <h1>Hi! I'm Fastest Guy Kourosh!</h1>
 <p>Here is my favorite game: Mathquest 2!</p>
 
-<a href="#" onclick="getGame(timehunter)">Time Hunter</a> | <a href="#" onclick="getGame(mq2)">Math Quest 2</a>
+<button onclick="getGame(timehunter)">Time Hunter</button> | <button onclick="getGame(mq2)">Math Quest 2</button>
 
 <iframe id="player" src="https://www.roomrecess.com/mobile/MQ2/play.html"></iframe>
 
@@ -36,10 +36,10 @@
 function getGame (game){
 
 	if (game === "timehunter"){
-	getElementById('player').src = "https://www.roomrecess.com/mobile/TimeHunter/play.html";
+	document.getElementById('player').src = "https://www.roomrecess.com/mobile/TimeHunter/play.html";
 	}elseif
 	if (game === "mq2"){
-	getElementById('player').src = "https://www.roomrecess.com/mobile/MQ2/play.html";
+	document.getElementById('player').src = "https://www.roomrecess.com/mobile/MQ2/play.html";
 	}
 }
 </script>
