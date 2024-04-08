@@ -21,7 +21,7 @@ iframe{height: 810px; width: 1000px;border:none;}
   
 #logo_right{width:20%;float: right}
 #logo_left{width:20%;float: left}
-#logo_left, p#update, p#sitename{color: #205c20}
+#logo_left, p#update, p#sitename, a#changelog{color: #205c20}
 
 p#update{padding-top:1em;}
 
