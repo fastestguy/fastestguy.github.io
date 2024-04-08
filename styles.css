@@ -18,10 +18,10 @@ iframe{height: 810px; width: 1000px;border:none;}
 /*
 #logo_right p, #logo_left p{background-color: #5d94fb}
 */
-  
+ 
 #logo_right{width:20%;float: right}
 #logo_left{width:20%;float: left}
-#logo_left, p#update, p#sitename, a#changelog{color: #205c20}
+#logo_left, #logo_right, p#update, p#sitename, a#changelog{color: #205c20}
 a#changelog{text-decoration: underline;}
 
 p#update{padding-top:1em;}
