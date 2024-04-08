@@ -45,6 +45,13 @@ p{
 p#update{padding-top:1em;}
 img{max-width:100%}
 
+p#smile{
+	font-size:400px; 
+	transform: rotateZ(90deg);
+	position:relative; 
+	bottom: 300px; 
+}
+
 
 /* game dropdown menu ############################################ */
 
