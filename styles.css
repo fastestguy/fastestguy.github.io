@@ -28,14 +28,14 @@ h1{
 	}
 
 a{
-	text-decoration:none;
+	/*text-decoration:none;*/
 	}
 	
 a#color1{
 	color: darkred; 
 	}
 a#color2{
-	color: darkorange; 
+	color: darkyellow; 
 	}
 
 a, p{
@@ -55,9 +55,9 @@ p#smile{
 	transform: rotateZ(90deg);
 	position:relative; 
 	bottom: 300px;
-	z-index: -1; 
+	z-index: -1;
+	color: #000; 
 }
-#smile shrink{font-size:200px}
 
 
 
