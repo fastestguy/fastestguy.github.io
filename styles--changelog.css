@@ -1,0 +1,21 @@
+@font-face {
+  font-family: mario;
+  src: url(/files/fonts/mario.ttf);
+}
+@font-face {
+  font-family: comfortaa;
+  src: url(/files/fonts/comfortaa.ttf);
+}
+body{
+	width: 100%;
+	background-color: #3ca93c; 
+	color:#fff;}
+
+h1{
+	padding-top: 30px;
+	font-family:mario;
+	}
+	
+li{
+	font-family:comfortaa; 
+}
