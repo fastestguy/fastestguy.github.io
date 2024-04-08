@@ -32,10 +32,10 @@ a{
 	}
 	
 a#color1{
-	color: red; 
+	color: darkred; 
 	}
 a#color2{
-	color: orange; 
+	color: darkorange; 
 	}
 
 a, p{
@@ -44,7 +44,6 @@ a, p{
 
 p{
 	text-align: center; 
-	color: #000;
 	font-size: 120%;
 	}
 p#update{padding-top:1em;}
