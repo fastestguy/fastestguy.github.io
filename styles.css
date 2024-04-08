@@ -24,11 +24,11 @@ iframe{height: 810px; width: 1000px;border:none;}
 h1{
 	padding-top: 30px; 
 	font-family:mario; 
-	color: #fff; 
+	color: #000; 
 	}
 p{
 	text-align: center; 
-	color: #fff; 
+	color: #000; 
 	}
 p#update{padding-top:1em;}
 img{max-width:100%}
