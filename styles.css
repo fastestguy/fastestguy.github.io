@@ -2,14 +2,15 @@
   font-family: mario;
   src: url(/files/fonts/mario.ttf);
 }
+@font-face {
+  font-family: comfortaa;
+  src: url(/files/fonts/comfortaa.ttf);
+}
 
 body{
 	width: 100%;
 	background-color: #3ca93c; 
 	color:#000;}
-
-a{text-decoration:none;}
-
 #centered {width: 1000px; text-align: center; margin:auto}
 
 iframe{height: 810px; width: 1000px;border:none;}
@@ -26,9 +27,15 @@ h1{
 	font-family:mario; 
 	color: #000; 
 	}
+
+a{text-decoration:none;}
+
+a, p{
+	font-family:comfortaa; 
+}
+
 p{
 	text-align: center; 
-	font-family:mario; 
 	color: #000;
 	font-size: 120%;
 	}
