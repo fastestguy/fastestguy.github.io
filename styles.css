@@ -36,7 +36,9 @@ a{
 	}
 	
 #nav a{
-	font-size:120%; 
+	font-size:120%;
+	font-weight:bold; 
+	font-variant: small-caps; 
 }
 
 a#color1, a#color2{
