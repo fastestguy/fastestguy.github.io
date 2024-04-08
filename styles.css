@@ -10,7 +10,7 @@
 body{
 	width: 100%;
 	background-color: #3ca93c; 
-	color:#000;}
+	color:#fff;}
 #centered {width: 1000px; text-align: center; margin:auto}
 
 iframe{height: 810px; width: 1000px;border:none;}
@@ -23,14 +23,19 @@ iframe{height: 810px; width: 1000px;border:none;}
 #logo_left{width:20%;float: left}
 
 h1{
-	padding-top: 30px; 
-	font-family:mario; 
-	color: #000; 
+	padding-top: 30px;
+	font-family:mario;
 	}
 
 a{
 	text-decoration:none;
-	color: #fff; 
+	}
+	
+a#color1{
+	color: red; 
+	}
+a#color2{
+	color: orange; 
 	}
 
 a, p{
@@ -77,9 +82,11 @@ p#smile{
   position: relative;
   top:20px; 
   display: inline-block;
-  border-bottom-left-radius: 20px; 
-  border-bottom-right-radius: 20px; 
 }
+
+#myDropdown{  
+	border-bottom-left-radius: 20px; 
+	border-bottom-right-radius: 20px; }
 
 .dropdown-content {
   display: none;
