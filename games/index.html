@@ -23,9 +23,45 @@
 <h1>Hi! I'm Fastest Guy Kourosh!</h1>
 <p>Here are some of my favorite games. Pick one!</p>
 
- <button onclick="playSl()">Slime Lab</button> | <button onclick="playMq()">MQ</button> | <button onclick="playMq2()">MQ 2</button> | <button onclick="playBattleBuddies()">Battle Buddies</button> | <button onclick="playTimeHunter()">Time Hunter</button> | <button onclick="playUnicorn()">Unicorn Game (for Atoosa)</button>
+<div class="dropdown">
+  <button onclick="selectGame()" class="dropbtn">Dropdown</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a onclick="playSl()">Slime Lab</a>
+    <a onclick="playMq()">MQ</a>
+    <a onclick="playMq2()">MQ 2</a>
+	<a onclick="playBattleBuddies()">Battle Buddies</a>
+	<a onclick="playTimeHunter()">Time Hunter</a>
+	<a onclick="playUnicorn()">Unicorn Game (for Atoosa)</a>
+  </div>
+</div>
 
 <iframe id="player" src=""></iframe>
+
+
+
+
+
+<!-- scripts to make the games work ####################### -->
+
+
+<script>
+
+function selectGame() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
 
 
 <script>
