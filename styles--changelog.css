@@ -17,5 +17,17 @@ h1{
 	}
 	
 li{
-	font-family:comfortaa; 
+	font-family:comfortaa;
+	line-height:1.5; 
+	font-size: 120%; 
 }
+
+p#smile{
+	font-size:400px; 
+	transform: rotateZ(90deg);
+	position:relative; 
+	bottom: 300px;
+	z-index: -1;
+	color: #000; 
+}
+#logo_left, p#update, p#sitename, a#changelog{color: #205c20}
