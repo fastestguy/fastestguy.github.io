@@ -21,8 +21,15 @@ iframe{height: 810px; width: 1000px;border:none;}
 #logo_right{width:20%;float: right}
 #logo_left{width:20%;float: left}
 
-h1{padding-top: 30px; font-family:mario}
-p{text-align: center}
+h1{
+	padding-top: 30px; 
+	font-family:mario; 
+	color: #fff; 
+	}
+p{
+	text-align: center; 
+	background-color: #777; 
+	}
 p#update{padding-top:1em;}
 img{max-width:100%}
 
@@ -30,7 +37,7 @@ img{max-width:100%}
 /* game dropdown menu ############################################ */
 
 .dropbtn {
-  background-color: #dd0000;
+  background-color: #cc0000;
   color: white;
   padding: 16px;
   font-size: 16px;
