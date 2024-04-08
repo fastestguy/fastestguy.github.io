@@ -21,7 +21,9 @@ iframe{height: 810px; width: 1000px;border:none;}
   
 #logo_right{width:20%;float: right}
 #logo_left{width:20%;float: left}
-#logo_left p{color: #758D93}
+#logo_left, p#update, p#sitename{color: #758D93}
+
+p#update{padding-top:1em;}
 
 h1{
 	padding-top: 30px;
@@ -32,6 +34,12 @@ a{
 	text-decoration:none;
 	}
 	
+	
+a#color1, a#color2{
+	background-color:#000;
+	padding: 3px;
+	border-radius: 7px; 
+}	
 a#color1{
 	color: #ff0; 
 	}
@@ -47,7 +55,7 @@ p{
 	text-align: center; 
 	font-size: 120%;
 	}
-p#update{padding-top:1em;}
+	
 img{max-width:100%}
 
 
