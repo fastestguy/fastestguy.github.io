@@ -81,7 +81,8 @@ p#smile{
 	position:relative; 
 	bottom: 300px;
 	z-index: -1;
-	color: #000; 
+	color: #000;
+	font-family:comfortaa; 
 }
 
 
