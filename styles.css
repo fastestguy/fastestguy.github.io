@@ -28,7 +28,10 @@ h1{
 	color: #000; 
 	}
 
-a{text-decoration:none;}
+a{
+	text-decoration:none;
+	color: #09f; 
+	}
 
 a, p{
 	font-family:comfortaa; 
