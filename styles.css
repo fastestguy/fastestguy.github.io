@@ -3,7 +3,10 @@
   src: url(/files/fonts/mario.ttf);
 }
 
-body{width: 100%;background-color: #7cdced; color:#000;}
+body{
+	width: 100%;
+	background-color: #7cdced; 
+	color:#000;}
 
 a{text-decoration:none;}
 
