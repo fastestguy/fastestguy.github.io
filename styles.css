@@ -30,7 +30,7 @@ img{max-width:100%}
 /* game dropdown menu ############################################ */
 
 .dropbtn {
-  background-color: #DB9834;
+  background-color: #ff0000;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -39,7 +39,7 @@ img{max-width:100%}
 }
 
 .dropbtn:hover, .dropbtn:focus {
-  background-color: #B98029;
+  background-color: #B90000;
 }
 
 .dropdown {
