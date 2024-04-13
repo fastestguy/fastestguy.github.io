@@ -1,3 +1,4 @@
+<!doctype html>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,12 +13,12 @@
 <div id="centered">
 
 <div id="logo_left">
-<a href="/"><img src="/files/img/internet.png" /></a>
+<a href="/"><img alt="" src="/files/img/internet.png" /></a>
 <p>Main Site</p>
 </div>
 
 <div id="logo_right">
-<a href="/about"><img src="/files/img/kourosh_and_atoosa.jpg" /></a>
+<a href="/about"><img alt="" src="/files/img/kourosh_and_atoosa.jpg" /></a>
 <p>Me and my sister, Atoosa-bear.</p>
 <p>Click the picture to learn about us!</p>
 </div>
@@ -32,11 +33,12 @@
     <a onclick="playMq2()">MQ 2</a>
 	<a onclick="playBattleBuddies()">Battle Buddies</a>
 	<a onclick="playTimeHunter()">Time Hunter</a>
+	<a onclick="playKv()">Knights vs Orcs</a>
 	<a onclick="playUnicorn()">Unicorn Game (for Atoosa)</a>
   </div>
 </div>
 
-<iframe id="player" src=""></iframe>
+<iframe id="player" src="#"></iframe>
 
 
 <p id="smile">:P</p>
@@ -82,12 +84,15 @@ function playBattleBuddies(){
 function playTimeHunter (){
 	document.getElementById('player').src = "https://www.roomrecess.com/mobile/TimeHunter/play.html";
 	}
+function playKv (){
+	document.getElementById('player').src = "https://www.roomrecess.com/mobile/KnightsVsOrcs/play.html";
+	}
 function playUnicorn (){
 	document.getElementById('player').src = "https://www.roomrecess.com/games/Mystic/play.html";
 	}
 	
 </script>
-
+	</div>
   
 </body>
 </html>
